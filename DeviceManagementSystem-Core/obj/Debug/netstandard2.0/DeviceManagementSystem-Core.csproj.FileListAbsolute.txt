@@ -1,0 +1,8 @@
+C:\Users\50650\Desktop\Test\DeviceManagementSystem\DeviceManagementSystem-Core\bin\Debug\netstandard2.0\DeviceManagementSystem-Core.deps.json
+C:\Users\50650\Desktop\Test\DeviceManagementSystem\DeviceManagementSystem-Core\bin\Debug\netstandard2.0\DeviceManagementSystem-Core.dll
+C:\Users\50650\Desktop\Test\DeviceManagementSystem\DeviceManagementSystem-Core\bin\Debug\netstandard2.0\DeviceManagementSystem-Core.pdb
+C:\Users\50650\Desktop\Test\DeviceManagementSystem\DeviceManagementSystem-Core\obj\Debug\netstandard2.0\DeviceManagementSystem-Core.csproj.CoreCompileInputs.cache
+C:\Users\50650\Desktop\Test\DeviceManagementSystem\DeviceManagementSystem-Core\obj\Debug\netstandard2.0\DeviceManagementSystem-Core.AssemblyInfoInputs.cache
+C:\Users\50650\Desktop\Test\DeviceManagementSystem\DeviceManagementSystem-Core\obj\Debug\netstandard2.0\DeviceManagementSystem-Core.AssemblyInfo.cs
+C:\Users\50650\Desktop\Test\DeviceManagementSystem\DeviceManagementSystem-Core\obj\Debug\netstandard2.0\DeviceManagementSystem-Core.dll
+C:\Users\50650\Desktop\Test\DeviceManagementSystem\DeviceManagementSystem-Core\obj\Debug\netstandard2.0\DeviceManagementSystem-Core.pdb

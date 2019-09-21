@@ -1,0 +1,221 @@
+2019-09-21 12:06:57.066 +10:00 [INF] Starting web host
+2019-09-21 12:06:59.136 +10:00 [INF] Entity Framework Core 2.2.6-servicing-10079 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2019-09-21 12:06:59.542 +10:00 [INF] Executed DbCommand (30ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2019-09-21 12:06:59.576 +10:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "d"."Id", "d"."Description", "d"."LastMaintain", "d"."Name", "d"."Owner", "d"."Type"
+FROM "Devices" AS "d"
+2019-09-21 12:06:59.839 +10:00 [INF] User profile is available. Using 'C:\Users\50650\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-09-21 12:07:01.817 +10:00 [INF] Request starting HTTP/1.1 GET https://localhost:13074/api/devices  
+2019-09-21 12:07:02.174 +10:00 [ERR] Request matched multiple actions resulting in ambiguity. Matching actions: DeviceManagementSystem_Api.Controllers.DeviceController.Get (DeviceManagementSystem-Api)
+DeviceManagementSystem_Api.Controllers.DeviceController.Device (DeviceManagementSystem-Api)
+2019-09-21 12:07:02.183 +10:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Mvc.Internal.AmbiguousActionException: Multiple actions matched. The following actions matched route data and had all constraints satisfied:
+
+DeviceManagementSystem_Api.Controllers.DeviceController.Get (DeviceManagementSystem-Api)
+DeviceManagementSystem_Api.Controllers.DeviceController.Device (DeviceManagementSystem-Api)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionSelector.SelectBestCandidate(RouteContext context, IReadOnlyList`1 candidates)
+   at Microsoft.AspNetCore.Mvc.Internal.MvcAttributeRouteHandler.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.Tree.TreeRouter.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.RouteCollection.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-09-21 12:07:02.414 +10:00 [INF] Request finished in 599.6226ms 500 text/html; charset=utf-8
+2019-09-21 12:16:00.996 +10:00 [INF] Starting web host
+2019-09-21 12:16:02.546 +10:00 [INF] Entity Framework Core 2.2.6-servicing-10079 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2019-09-21 12:16:02.787 +10:00 [INF] Executed DbCommand (30ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2019-09-21 12:16:02.809 +10:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "d"."Id", "d"."Description", "d"."LastMaintain", "d"."Name", "d"."Owner", "d"."Type"
+FROM "Devices" AS "d"
+2019-09-21 12:16:02.969 +10:00 [INF] User profile is available. Using 'C:\Users\50650\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-09-21 12:16:04.948 +10:00 [INF] Request starting HTTP/1.1 GET https://localhost:13074/api/devices  
+2019-09-21 12:16:05.263 +10:00 [ERR] Request matched multiple actions resulting in ambiguity. Matching actions: DeviceManagementSystem_Api.Controllers.DeviceController.Get (DeviceManagementSystem-Api)
+DeviceManagementSystem_Api.Controllers.DeviceController.Device (DeviceManagementSystem-Api)
+2019-09-21 12:16:05.267 +10:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Mvc.Internal.AmbiguousActionException: Multiple actions matched. The following actions matched route data and had all constraints satisfied:
+
+DeviceManagementSystem_Api.Controllers.DeviceController.Get (DeviceManagementSystem-Api)
+DeviceManagementSystem_Api.Controllers.DeviceController.Device (DeviceManagementSystem-Api)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionSelector.SelectBestCandidate(RouteContext context, IReadOnlyList`1 candidates)
+   at Microsoft.AspNetCore.Mvc.Internal.MvcAttributeRouteHandler.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.Tree.TreeRouter.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.RouteCollection.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-09-21 12:16:05.465 +10:00 [INF] Request finished in 519.1525ms 500 text/html; charset=utf-8
+2019-09-21 12:18:51.670 +10:00 [INF] Starting web host
+2019-09-21 12:18:53.351 +10:00 [INF] Entity Framework Core 2.2.6-servicing-10079 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2019-09-21 12:18:53.603 +10:00 [INF] Executed DbCommand (25ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2019-09-21 12:18:53.620 +10:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "d"."Id", "d"."Description", "d"."LastMaintain", "d"."Name", "d"."Owner", "d"."Type"
+FROM "Devices" AS "d"
+2019-09-21 12:18:53.750 +10:00 [INF] User profile is available. Using 'C:\Users\50650\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-09-21 12:18:55.433 +10:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/api/devices  
+2019-09-21 12:18:55.635 +10:00 [INF] Route matched with {action = "Get", controller = "Device"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller DeviceManagementSystem_Api.Controllers.DeviceController (DeviceManagementSystem-Api).
+2019-09-21 12:18:55.658 +10:00 [INF] Executed action DeviceManagementSystem_Api.Controllers.DeviceController.Get (DeviceManagementSystem-Api) in 13.2744ms
+2019-09-21 12:18:55.663 +10:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Microsoft.Extensions.Logging.LoggerFactory' while attempting to activate 'DeviceManagementSystem_Api.Controllers.DeviceController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-09-21 12:18:55.772 +10:00 [INF] Request finished in 342.3904ms 500 text/html; charset=utf-8
+2019-09-21 12:18:56.995 +10:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/favicon.ico  
+2019-09-21 12:18:57.000 +10:00 [INF] Request finished in 5.004ms 404 
+2019-09-21 12:22:39.868 +10:00 [INF] Starting web host
+2019-09-21 12:22:41.854 +10:00 [INF] Entity Framework Core 2.2.6-servicing-10079 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2019-09-21 12:22:42.161 +10:00 [INF] Executed DbCommand (28ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2019-09-21 12:22:42.198 +10:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "d"."Id", "d"."Description", "d"."LastMaintain", "d"."Name", "d"."Owner", "d"."Type"
+FROM "Devices" AS "d"
+2019-09-21 12:22:42.384 +10:00 [INF] User profile is available. Using 'C:\Users\50650\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-09-21 12:22:43.815 +10:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/api/devices  
+2019-09-21 12:22:44.105 +10:00 [INF] Route matched with {action = "Get", controller = "Device"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller DeviceManagementSystem_Api.Controllers.DeviceController (DeviceManagementSystem-Api).
+2019-09-21 12:22:44.393 +10:00 [INF] Executing action method DeviceManagementSystem_Api.Controllers.DeviceController.Get (DeviceManagementSystem-Api) - Validation state: "Valid"
+2019-09-21 12:22:44.398 +10:00 [INF] Entity Framework Core 2.2.6-servicing-10079 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2019-09-21 12:22:44.429 +10:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2019-09-21 12:22:44.439 +10:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "d"."Id", "d"."Description", "d"."LastMaintain", "d"."Name", "d"."Owner", "d"."Type"
+FROM "Devices" AS "d"
+2019-09-21 12:22:44.496 +10:00 [INF] Executed action method DeviceManagementSystem_Api.Controllers.DeviceController.Get (DeviceManagementSystem-Api), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 99.119ms.
+2019-09-21 12:22:44.510 +10:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[DeviceManagementSystem_Infrasture.Resources.DeviceResource, DeviceManagementSystem-Infrasture, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-09-21 12:22:44.606 +10:00 [INF] Executed action DeviceManagementSystem_Api.Controllers.DeviceController.Get (DeviceManagementSystem-Api) in 491.54720000000003ms
+2019-09-21 12:22:44.615 +10:00 [INF] Request finished in 802.4413ms 200 application/json; charset=utf-8
+2019-09-21 13:26:23.147 +10:00 [INF] Starting web host
+2019-09-21 13:26:25.284 +10:00 [INF] Entity Framework Core 2.2.6-servicing-10079 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2019-09-21 13:26:25.520 +10:00 [INF] Executed DbCommand (26ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2019-09-21 13:26:25.543 +10:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "d"."Id", "d"."Description", "d"."LastMaintain", "d"."Name", "d"."Owner", "d"."Type"
+FROM "Devices" AS "d"
+2019-09-21 13:26:25.675 +10:00 [INF] User profile is available. Using 'C:\Users\50650\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-09-21 13:26:27.128 +10:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/api/devices  
+2019-09-21 13:26:27.364 +10:00 [INF] Route matched with {action = "Get", controller = "Device"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller DeviceManagementSystem_Api.Controllers.DeviceController (DeviceManagementSystem-Api).
+2019-09-21 13:26:27.660 +10:00 [INF] Executing action method DeviceManagementSystem_Api.Controllers.DeviceController.Get (DeviceManagementSystem-Api) - Validation state: "Valid"
+2019-09-21 13:26:27.667 +10:00 [INF] Entity Framework Core 2.2.6-servicing-10079 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2019-09-21 13:26:27.698 +10:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2019-09-21 13:26:27.708 +10:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "d"."Id", "d"."Description", "d"."LastMaintain", "d"."Name", "d"."Owner", "d"."Type"
+FROM "Devices" AS "d"
+2019-09-21 13:26:27.749 +10:00 [INF] Executed action method DeviceManagementSystem_Api.Controllers.DeviceController.Get (DeviceManagementSystem-Api), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 85.2833ms.
+2019-09-21 13:26:27.761 +10:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[DeviceManagementSystem_Infrasture.Resources.DeviceResource, DeviceManagementSystem-Infrasture, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-09-21 13:26:27.859 +10:00 [INF] Executed action DeviceManagementSystem_Api.Controllers.DeviceController.Get (DeviceManagementSystem-Api) in 486.9979ms
+2019-09-21 13:26:27.873 +10:00 [INF] Request finished in 747.0384ms 200 application/json; charset=utf-8
+2019-09-21 15:44:32.860 +10:00 [INF] Starting web host
+2019-09-21 15:44:34.960 +10:00 [INF] Entity Framework Core 2.2.6-servicing-10079 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2019-09-21 15:44:35.238 +10:00 [INF] Executed DbCommand (26ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2019-09-21 15:44:35.263 +10:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "d"."Id", "d"."Description", "d"."LastMaintain", "d"."Name", "d"."Owner", "d"."Type"
+FROM "Devices" AS "d"
+2019-09-21 15:44:35.404 +10:00 [INF] User profile is available. Using 'C:\Users\50650\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-09-21 15:44:37.150 +10:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/api/devices  
+2019-09-21 15:44:37.428 +10:00 [INF] Route matched with {action = "Get", controller = "Device"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(DeviceManagementSystem_Core.Entities.DeviceParameters) on controller DeviceManagementSystem_Api.Controllers.DeviceController (DeviceManagementSystem-Api).
+2019-09-21 15:44:37.718 +10:00 [INF] Executing action method DeviceManagementSystem_Api.Controllers.DeviceController.Get (DeviceManagementSystem-Api) - Validation state: "Valid"
+2019-09-21 15:44:37.725 +10:00 [INF] Entity Framework Core 2.2.6-servicing-10079 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2019-09-21 15:44:37.786 +10:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2019-09-21 15:44:37.802 +10:00 [INF] Executed DbCommand (8ms) [Parameters=[@__p_1='?', @__p_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT "x"."Id", "x"."Description", "x"."LastMaintain", "x"."Name", "x"."Owner", "x"."Type"
+FROM "Devices" AS "x"
+ORDER BY "x"."Id"
+LIMIT @__p_1 OFFSET @__p_0
+2019-09-21 15:44:37.853 +10:00 [INF] Executed action method DeviceManagementSystem_Api.Controllers.DeviceController.Get (DeviceManagementSystem-Api), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 131.3217ms.
+2019-09-21 15:44:37.867 +10:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[DeviceManagementSystem_Infrasture.Resources.DeviceResource, DeviceManagementSystem-Infrasture, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-09-21 15:44:37.963 +10:00 [INF] Executed action DeviceManagementSystem_Api.Controllers.DeviceController.Get (DeviceManagementSystem-Api) in 526.0069ms
+2019-09-21 15:44:37.973 +10:00 [INF] Request finished in 825.0284ms 200 application/json; charset=utf-8
+2019-09-21 17:24:38.762 +10:00 [INF] Starting web host
+2019-09-21 17:24:40.130 +10:00 [INF] Entity Framework Core 2.2.6-servicing-10079 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2019-09-21 17:24:40.351 +10:00 [INF] Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2019-09-21 17:24:40.374 +10:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "d"."Id", "d"."Description", "d"."LastMaintain", "d"."Name", "d"."Owner", "d"."Type"
+FROM "Devices" AS "d"
+2019-09-21 17:24:40.454 +10:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2019-09-21 17:24:40.498 +10:00 [INF] Executed DbCommand (19ms) [Parameters=[@p0='?' (Size = 11), @p1='?', @p2='?' (Size = 6), @p3='?' (Size = 9), @p4='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Devices" ("Description", "LastMaintain", "Name", "Owner", "Type")
+VALUES (@p0, @p1, @p2, @p3, @p4);
+SELECT "Id"
+FROM "Devices"
+WHERE changes() = 1 AND "Id" = last_insert_rowid();
+2019-09-21 17:24:40.511 +10:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?' (Size = 11), @p1='?', @p2='?' (Size = 6), @p3='?' (Size = 9), @p4='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Devices" ("Description", "LastMaintain", "Name", "Owner", "Type")
+VALUES (@p0, @p1, @p2, @p3, @p4);
+SELECT "Id"
+FROM "Devices"
+WHERE changes() = 1 AND "Id" = last_insert_rowid();
+2019-09-21 17:24:40.516 +10:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?' (Size = 12), @p1='?', @p2='?' (Size = 6), @p3='?' (Size = 9), @p4='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Devices" ("Description", "LastMaintain", "Name", "Owner", "Type")
+VALUES (@p0, @p1, @p2, @p3, @p4);
+SELECT "Id"
+FROM "Devices"
+WHERE changes() = 1 AND "Id" = last_insert_rowid();
+2019-09-21 17:24:40.517 +10:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?' (Size = 13), @p1='?', @p2='?' (Size = 6), @p3='?' (Size = 9), @p4='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Devices" ("Description", "LastMaintain", "Name", "Owner", "Type")
+VALUES (@p0, @p1, @p2, @p3, @p4);
+SELECT "Id"
+FROM "Devices"
+WHERE changes() = 1 AND "Id" = last_insert_rowid();
+2019-09-21 17:24:40.531 +10:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?' (Size = 18), @p1='?', @p2='?' (Size = 6), @p3='?' (Size = 9), @p4='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Devices" ("Description", "LastMaintain", "Name", "Owner", "Type")
+VALUES (@p0, @p1, @p2, @p3, @p4);
+SELECT "Id"
+FROM "Devices"
+WHERE changes() = 1 AND "Id" = last_insert_rowid();
+2019-09-21 17:24:40.540 +10:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?' (Size = 18), @p1='?', @p2='?' (Size = 6), @p3='?' (Size = 9), @p4='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Devices" ("Description", "LastMaintain", "Name", "Owner", "Type")
+VALUES (@p0, @p1, @p2, @p3, @p4);
+SELECT "Id"
+FROM "Devices"
+WHERE changes() = 1 AND "Id" = last_insert_rowid();
+2019-09-21 17:24:40.543 +10:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?' (Size = 19), @p1='?', @p2='?' (Size = 6), @p3='?' (Size = 9), @p4='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Devices" ("Description", "LastMaintain", "Name", "Owner", "Type")
+VALUES (@p0, @p1, @p2, @p3, @p4);
+SELECT "Id"
+FROM "Devices"
+WHERE changes() = 1 AND "Id" = last_insert_rowid();
+2019-09-21 17:24:40.562 +10:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?' (Size = 18), @p1='?', @p2='?' (Size = 6), @p3='?' (Size = 9), @p4='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Devices" ("Description", "LastMaintain", "Name", "Owner", "Type")
+VALUES (@p0, @p1, @p2, @p3, @p4);
+SELECT "Id"
+FROM "Devices"
+WHERE changes() = 1 AND "Id" = last_insert_rowid();
+2019-09-21 17:24:40.659 +10:00 [INF] User profile is available. Using 'C:\Users\50650\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-09-21 17:24:42.220 +10:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/api/devices  
+2019-09-21 17:24:42.472 +10:00 [INF] Route matched with {action = "Get", controller = "Device"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(DeviceManagementSystem_Core.Entities.DeviceParameters) on controller DeviceManagementSystem_Api.Controllers.DeviceController (DeviceManagementSystem-Api).
+2019-09-21 17:24:42.758 +10:00 [INF] Executing action method DeviceManagementSystem_Api.Controllers.DeviceController.Get (DeviceManagementSystem-Api) - Validation state: "Valid"
+2019-09-21 17:24:42.982 +10:00 [INF] Executed action DeviceManagementSystem_Api.Controllers.DeviceController.Get (DeviceManagementSystem-Api) in 503.02450000000005ms
+2019-09-21 17:24:42.993 +10:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DeviceManagementSystem_Infrasture.Repositery.DeviceRepository.GetAllDevicesAsync(DeviceParameters deviceParameters) in C:\Users\50650\Desktop\Test\DeviceManagementSystem\DeviceManagementSystem-Infrasture\Repositery\DeviceRepository.cs:line 38
+   at DeviceManagementSystem_Api.Controllers.DeviceController.Get(DeviceParameters deviceParameters) in C:\Users\50650\Desktop\Test\DeviceManagementSystem\DeviceManagementSystem-Api\Controllers\DeviceController.cs:line 55
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-09-21 17:24:43.212 +10:00 [INF] Request finished in 992.1788ms 500 text/html; charset=utf-8

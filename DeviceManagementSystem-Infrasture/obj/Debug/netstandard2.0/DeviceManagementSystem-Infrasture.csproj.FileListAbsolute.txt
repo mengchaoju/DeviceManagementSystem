@@ -1,0 +1,12 @@
+C:\Users\50650\Desktop\Test\DeviceManagementSystem\DeviceManagementSystem-Infrasture\bin\Debug\netstandard2.0\DeviceManagementSystem-Infrasture.deps.json
+C:\Users\50650\Desktop\Test\DeviceManagementSystem\DeviceManagementSystem-Infrasture\bin\Debug\netstandard2.0\DeviceManagementSystem-Infrasture.dll
+C:\Users\50650\Desktop\Test\DeviceManagementSystem\DeviceManagementSystem-Infrasture\obj\Debug\netstandard2.0\DeviceManagementSystem-Infrasture.csprojAssemblyReference.cache
+C:\Users\50650\Desktop\Test\DeviceManagementSystem\DeviceManagementSystem-Infrasture\obj\Debug\netstandard2.0\DeviceManagementSystem-Infrasture.csproj.CoreCompileInputs.cache
+C:\Users\50650\Desktop\Test\DeviceManagementSystem\DeviceManagementSystem-Infrasture\obj\Debug\netstandard2.0\DeviceManagementSystem-Infrasture.AssemblyInfoInputs.cache
+C:\Users\50650\Desktop\Test\DeviceManagementSystem\DeviceManagementSystem-Infrasture\obj\Debug\netstandard2.0\DeviceManagementSystem-Infrasture.AssemblyInfo.cs
+C:\Users\50650\Desktop\Test\DeviceManagementSystem\DeviceManagementSystem-Infrasture\bin\Debug\netstandard2.0\DeviceManagementSystem-Infrasture.pdb
+C:\Users\50650\Desktop\Test\DeviceManagementSystem\DeviceManagementSystem-Infrasture\obj\Debug\netstandard2.0\DeviceManagementSystem-Infrasture.dll
+C:\Users\50650\Desktop\Test\DeviceManagementSystem\DeviceManagementSystem-Infrasture\obj\Debug\netstandard2.0\DeviceManagementSystem-Infrasture.pdb
+C:\Users\50650\Desktop\Test\DeviceManagementSystem\DeviceManagementSystem-Infrasture\bin\Debug\netstandard2.0\DeviceManagementSystem-Core.dll
+C:\Users\50650\Desktop\Test\DeviceManagementSystem\DeviceManagementSystem-Infrasture\bin\Debug\netstandard2.0\DeviceManagementSystem-Core.pdb
+C:\Users\50650\Desktop\Test\DeviceManagementSystem\DeviceManagementSystem-Infrasture\obj\Debug\netstandard2.0\DeviceManagementSystem-Infrasture.csproj.CopyComplete

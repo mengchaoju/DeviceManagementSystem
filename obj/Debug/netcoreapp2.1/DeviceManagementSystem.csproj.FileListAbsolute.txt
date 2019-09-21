@@ -1,0 +1,6 @@
+C:\Users\50650\Desktop\Test\DeviceManagementSystem\obj\Debug\netcoreapp2.1\DeviceManagementSystem.csprojAssemblyReference.cache
+C:\Users\50650\Desktop\Test\DeviceManagementSystem\obj\Debug\netcoreapp2.1\DeviceManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\50650\Desktop\Test\DeviceManagementSystem\obj\Debug\netcoreapp2.1\DeviceManagementSystem.RazorAssemblyInfo.cache
+C:\Users\50650\Desktop\Test\DeviceManagementSystem\obj\Debug\netcoreapp2.1\DeviceManagementSystem.RazorAssemblyInfo.cs
+C:\Users\50650\Desktop\Test\DeviceManagementSystem\obj\Debug\netcoreapp2.1\DeviceManagementSystem.AssemblyInfoInputs.cache
+C:\Users\50650\Desktop\Test\DeviceManagementSystem\obj\Debug\netcoreapp2.1\DeviceManagementSystem.AssemblyInfo.cs
